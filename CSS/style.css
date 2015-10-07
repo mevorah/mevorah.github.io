@@ -27,7 +27,7 @@ body{
     height: 2px;
 }
 
-#articleContainer {
+#articleContainerOuter {
     position: relative;
     max-width: 570px;
     
@@ -35,24 +35,49 @@ body{
     
     height: 500px;
     border-radius: 4px;
-    overflow: hidden
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#articleContainerInner{
+    width: 4009px;
+}
+
+#middle{
+    overflow-x: scroll;
+    -webkit-scrollbar { 
+        display: none; 
+    }
 }
 
 .Article{
-    height: 500px;
-    width: 200px;
+    display: inline-block;
     
+    height: 500px;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-scrollbar { 
+        display: none; 
+    }
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     background-color: skyblue;
 }
 
 .shadow {
+    pointer-events: none;
     position: absolute;
     left:0px;
     top:0px;
     right: 0px;
     bottom: 0px;
     box-shadow: inset 0px 2px 6px 0px rgba(3,4,0,1);
-        overflow: scroll;
 }
 
