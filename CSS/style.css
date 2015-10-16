@@ -1,0 +1,164 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    -webkit-scrollbar { 
+        display: none; 
+    };
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: ivory;
+}
+
+#top {
+    margin: 0 auto;
+    max-width: 560px;
+    padding-top: 20px;
+}
+.titleLabel {
+    line-height: 90%;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-kerning: normal;
+    font-weight: 100px;
+    color: #1D3B54;
+}
+#line {
+    background-color: #1D3B54;
+    height: 2px;
+}
+
+#articleContainerOuter {
+    position: relative;
+    
+    margin: 5px auto;
+    
+    height: 500px;
+    border-radius: 4px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#articleContainerInner{
+    width: 1200px;
+}
+
+#middle{
+    overflow-x: scroll;
+    -webkit-scrollbar { 
+        display: none; 
+    }
+}
+
+#articleContainerOuter {
+    max-width: 570px;
+}
+
+
+
+.Article{
+    display: inline-block;
+    height: 500px;
+    width: 570px;
+    max-width: 570px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+        
+    padding-top: 20px;
+
+
+    background-color: skyblue;
+    
+    z-index: 0;
+}
+
+.ArticleInner{
+    position: relative;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    min-height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    
+    font-family: sans-serif;
+    font-size: 23px;
+    word-wrap:break-word;
+    
+    box-shadow: 0px 0px 1px black;
+    z-index: 5;
+}
+
+
+/* All Ribbons */
+#bodyRibbonA, #bodyRibbonB, .articleRibbonA, .articleRibbonB, .articleInnerRibbonA, .articleInnerRibbonB {   
+    position: relative;
+    height: 3px; 
+}
+
+/* Color 1 Ribbons */
+#bodyRibbonA, .articleRibbonA, .articleInnerRibbonA {
+    background-color: darkred;
+}
+
+/* Color 2 Ribbons */
+#bodyRibbonB, .articleRibbonB, .articleInnerRibbonB {
+    background-color: #1D3B54;   
+}
+
+/* Body Ribbons */
+#bodyRibbonA, #bodyRibbonB {
+    max-width: 570;
+    z-index: -1;
+}
+#bodyRibbonA {
+    bottom: 65px;
+}
+#bodyRibbonB{
+    bottom: 59px
+}
+
+/* Article Cell Ribbons */
+.articleRibbonA, .articleRibbonB {
+    z-index: 1;
+}
+.articleRibbonA{
+    bottom: 52px;
+}
+.articleRibbonB{
+    bottom: 46px;
+}
+
+/* Article Inner Ribbons */
+.articleInnerRibbonA, .articleInnerRibbonB {
+    width: 70.3%;
+    margin: 0 auto;
+    z-index: 6;
+}
+.articleInnerRibbonA{
+    bottom: 47.5px;
+}
+.articleInnerRibbonB{
+    bottom: 41.5px;
+}
+
+
+.shadow {
+    pointer-events: none;
+    position: absolute;
+    z-index: 1000;
+    left:0px;
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+    box-shadow: inset 0px 2px 6px 0px rgba(3,4,0,1);
+}
+
