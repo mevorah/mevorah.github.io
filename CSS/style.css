@@ -5,33 +5,31 @@
 }
 
 body{
- background-url: http://api.thumbr.it/whitenoise-361x370.png?background=edededff&noise=595959&density=15&opacity=16;   
+    background-color: ivory;
 }
 
 #top {
-    max-width: 560px;
     margin: 0 auto;
+    max-width: 560px;
     padding-top: 20px;
 }
-
 .titleLabel {
     line-height: 90%;
     font-size: 100px;
     font-family: sans-serif;
     font-kerning: normal;
     font-weight: 100px;
+    color: #1D3B54;
 }
-
 #line {
-    background-color: black;
+    background-color: #1D3B54;
     height: 2px;
 }
 
 #articleContainerOuter {
     position: relative;
-    max-width: 570px;
     
-    margin: 7px auto;
+    margin: 5px auto;
     
     height: 500px;
     border-radius: 4px;
@@ -40,7 +38,7 @@ body{
 }
 
 #articleContainerInner{
-    width: 4009px;
+    width: 5009px;
 }
 
 #middle{
@@ -50,9 +48,16 @@ body{
     }
 }
 
-.Article{
+#articleContainerOuter {
+    max-width: 570px;
+}
+
+.ArticleCell{
     display: inline-block;
-    
+    background-color: whitesmoke;
+    width: 400px;
+}
+.Article{
     height: 500px;
     width: 300px;
     overflow-x: hidden;
@@ -61,8 +66,8 @@ body{
         display: none; 
     }
     
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     
     padding-top: 30px;
     padding-left: 10px;
@@ -70,6 +75,7 @@ body{
 
     background-color: skyblue;
 }
+
 
 .shadow {
     pointer-events: none;
