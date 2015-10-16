@@ -2,10 +2,14 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+    -webkit-scrollbar { 
+        display: none; 
+    };
 }
 
 body{
     background-color: ivory;
+    
 }
 
 #top {
@@ -52,23 +56,16 @@ body{
     max-width: 570px;
 }
 
-.ArticleCell{
-    display: inline-block;
-    background-color: whitesmoke;
-    width: 400px;
-}
+
+
 .Article{
+    display: inline-block;
     height: 500px;
-    width: 300px;
+    width: 570px;
+    max-width: 570px;
     overflow-x: hidden;
     overflow-y: scroll;
-    -webkit-scrollbar { 
-        display: none; 
-    }
-    
-    margin-left: auto;
-    margin-right: auto;
-    
+        
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
@@ -76,6 +73,31 @@ body{
     background-color: skyblue;
 }
 
+.ArticleInner{
+    
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    min-height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    
+    font-family: sans-serif;
+    font-size: 23px;
+    word-wrap:break-word;
+}
+
+#ribbon{
+    
+    position: relative;
+    z-index: 0;
+    background-color: darkred;
+    height: 3px;
+    width: 500px;
+    
+}
 
 .shadow {
     pointer-events: none;
