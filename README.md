@@ -1,2 +1,0 @@
-# mevorah.github.io
-Website
