@@ -1,5 +1,14 @@
 body {
-        font-family:  "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+        font-family:  "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif, Abel;
+}
+
+h1, h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 20px;
 }
 
 #shell {
@@ -58,6 +67,19 @@ body {
 }
 .article-link:hover {
     color:  #0097ff;
+}
+
+.img-area{
+    padding-top: 15px;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #dae6eb;
+    
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: #dae6eb;
+    
 }
 
 /* Projects */
