@@ -1,0 +1,65 @@
+body{
+}
+
+#top-area{
+    position: absolute;
+    top: 0px;
+    height: 60%;
+    width: 100%;
+}
+#svg-area{
+    background-color: white;
+    margin: 0 auto;
+    height: 100%;
+    width: 800px
+}
+
+#a-area, #b-area{
+    width: 45%;
+    /*border-bottom: solid;
+    border-bottom-width: 35px;
+    border-bottom-color:deepskyblue;*/
+}
+
+#a-area {
+    padding-left: 20px;
+    float: left;  
+}
+
+#b-area {
+    padding-right: 20px;
+    float: right;
+}
+
+#stage-area{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background-color: black;
+}
+
+#back-link{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #17171c;
+    height: 15px;
+    width: 15px;
+    
+        transition-duration: .15s;
+    
+    
+}
+
+#back-link:hover {
+    border: solid;
+    border-bottom-width: 1px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: none;
+}
+
