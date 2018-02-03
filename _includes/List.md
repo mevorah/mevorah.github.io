@@ -1,1 +1,2 @@
-# SeattleLofts I
+# SeattleLofts
+Blog by Mark Mevorah
