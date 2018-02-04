@@ -1,4 +1,4 @@
-# SeattleLofts
+# Seattle Lofts
 Blog by Mark Mevorah
 
 [↖SeattleLofts](/)
