@@ -1,6 +1,6 @@
 ## SeattleLofts 1
 <a href="/SeattleLofts1/">
-![SeattleLofts 1](https://github.com/mevorah/SeattleLofts1/blob/master/_img/Fall.png?raw=true "Fall")
+![SeattleLofts 1](https://github.com/mevorah/SeattleLofts1/blob/master/_img/Fall.png?raw=true "SeattleLofts 1")
 </a>
 
 ## The SeattleLofts 2018 Album List
