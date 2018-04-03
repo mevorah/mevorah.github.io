@@ -1,4 +1,4 @@
-## SeattleLofts 1
+## SeattleLofts I
 <a href="/SeattleLofts1/">
 ![SeattleLofts 1](https://github.com/mevorah/SeattleLofts1/blob/master/_img/Fall.png?raw=true "SeattleLofts 1")
 </a>
