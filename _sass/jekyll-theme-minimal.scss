@@ -1,17 +1,57 @@
 @import "fonts";
 @import "rouge-github";
 
+$color-grey: #24272d;
+$color-blue: #4fffaa;
+
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
+  font: 16px/1.5 "Avenir Next", Helvetica, Arial, sans-serif;
+  color:$color-grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 18px;
+}
+
+.time-list td {
+  border: 0;
+  padding-bottom: 0;
+}
+
+.time-list table {
+  margin-bottom: 5px;
+}
+
+.time-list {
+  margin-bottom: 5px;
+}
+
+.time-list .time-list-item {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.time-list .time-list-content {
+  padding-left: 0px;
+}
+
+.time-list .time-list-content a {
+  color:$color-blue
+}
+
+header p a {
+  color:$color-grey;
+}
+
+p a {
+  color:$color-blue
+}
+
+ol li a {
+  color:$color-blue;
 }
 
 p, ul, ol, table, pre, dl {
@@ -35,23 +75,8 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#727272;
+  color:$color-grey;
   text-decoration:none;
-}
-
-a:hover, a:focus {
-  color:#2a2a2b;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
 }
 
 .wrapper {
