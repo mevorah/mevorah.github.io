@@ -44,7 +44,7 @@ So without further ado, every day I...
   </tr>
   <tr>
   	<td class="time-list-item" valign="top">6:47</td>
-  	<td class="time-list-content">Switch to <a href="https://www.npr.org/podcasts/510325/the-indicator-from-planet-money">The Indicator</a>to listen to something that is not technology focused</td>
+  	<td class="time-list-content">Switch to <a href="https://www.npr.org/podcasts/510325/the-indicator-from-planet-money">The Indicator</a> to listen to something that is not technology focused</td>
   </tr>
   <tr>
   	<td class="time-list-item" valign="top"></td>
